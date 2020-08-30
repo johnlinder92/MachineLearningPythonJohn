@@ -24,6 +24,7 @@
     <Compile Include="regression.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="csv_Files\Machine Learning Test - Blad1.csv" />
     <Content Include="csv_Files\welcome.csv" />
     <Content Include="environment.yml" />
   </ItemGroup>

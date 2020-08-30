@@ -31,11 +31,11 @@ absolute values.
 '''
 
 # Remember to update the script for the new data when you change this URL
-URL = "https://raw.githubusercontent.com/microsoft/python-sklearn-regression-cookiecutter/master/stockvalues.csv"
+URL = "https://raw.githubusercontent.com/johnlinder92/MachineLearningPythonJohn/master/csv_Files/welcome.csv"
 
 # This is the column of the sample data to predict.
 # Try changing it to other integers between 1 and 155.
-TARGET_COLUMN = 32
+TARGET_COLUMN = 4
 
 # Uncomment this call when using matplotlib to generate images
 # rather than displaying interactive UI.
@@ -109,7 +109,7 @@ def download_data():
     #return frame
 
     # Return a subset of the columns
-    return frame[[156, 157, 158, TARGET_COLUMN]]
+    return frame[[ 1, 2, 3, TARGET_COLUMN]]
 
 
 # =====================================================================
