@@ -31,7 +31,7 @@ absolute values.
 '''
 
 # Remember to update the script for the new data when you change this URL
-URL = "https://raw.githubusercontent.com/johnlinder92/MachineLearningPythonJohn/master/csv_Files/welcome.csv"
+URL = "https://raw.githubusercontent.com/johnlinder92/MachineLearningPythonJohn/master/csv_Files/Machine%20Learning%20Test%20-%20Blad1.csv"
 
 # This is the column of the sample data to predict.
 # Try changing it to other integers between 1 and 155.
@@ -137,10 +137,10 @@ def get_features_and_labels(frame):
     # To use the first column instead, change the index value
     #X, y = arr[:, 1:], arr[:, 0]
     
-    # Use 50% of the data for training, but we will test against the
+    # Use 70% of the data for training, but we will test against the
     # entire set
     from sklearn.model_selection import train_test_split
-    X_train, _, y_train, _ = train_test_split(X, y, test_size=0.5)
+    X_train, _, y_train, _ = train_test_split(X, y, test_size=0.7)
     X_test, y_test = X, y
     
     # If values are missing we could impute them from the training data
